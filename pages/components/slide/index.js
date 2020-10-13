@@ -10,7 +10,7 @@ loader.define(function(require, exports, module) {
         loop: params.loop == "false" ? false : true,
         data: params.data || [{
             image: "http://easybui.com/demo/images/banner01.png",
-            url: "pages/ui_controls/bui.slide_title.html",
+            url: "http://easybui.com/demo/index.html#pages/ui_controls/bui.slide.html",
         }],
         callback: function(e) {
             var index = this.index();
